@@ -3,5 +3,5 @@ applications:
 - name: agar-clone
   memory: 128M
   disk_quota: 256M
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack#19b6bc8c15aac2b159a14fc7d9928247447bf8f6  
   command: node server/server.js
